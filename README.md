@@ -1,1 +1,1 @@
-# pcjr_gpt3
+# IBM PCjr GPT-3
