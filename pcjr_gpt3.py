@@ -36,7 +36,7 @@ while True:
 
     if prompt == "q":
         break
-    elif prompt == "":
+    elif prompt.strip() == "":
         continue
 
     response = openai.Completion.create(
