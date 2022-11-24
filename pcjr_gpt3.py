@@ -1,3 +1,9 @@
+# IBM PCjr - GPT-3 model interaction over RS-232 serial.
+# 
+# Nick Bild
+# November 2022
+# https://github.com/nickbild/pcjr_gpt3
+# 
 # Kermit 3.14 setup on PCjr:
 # MS-Kermit>set port 1
 # MS-Kermit>set speed 1200
@@ -21,7 +27,7 @@ def readData():
             buffer += oneByte.decode("ascii")
 
 
-ser = serial.Serial('/dev/tty.usbserial-A10LFZG6', 1200)
+ser = serial.Serial('/dev/ttyUSB0', 1200)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
