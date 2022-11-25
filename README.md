@@ -8,7 +8,7 @@ Ask the world's smartest IBM PCjr anything and it will answer using the GPT-3 de
 
 An IBM PCjr (MS-DOS 5.0, 640 KB RAM) has it's serial port connected to an RS-232 to USB adapter.  Since the serial port uses a non-standard 2x8 pin Berg connector (everything on a PCjr is non-standard), I hacked together an adapter that connects it to a standard DB-25 cable.  IBM did sell adapters like this, but I don't have one.  The PCjr is running the communications software package Kermit version 3.14.
 
-The USB cable is connected to a Raspberry Pi 4.  A Python script runs on the Pi ([code here](https://github.com/nickbild/pcjr_gpt3/blob/main/pcjr_gpt3.py)) that accepts input coming in over the serial interface (from the user typing in Kermit the PCjr), and sends it to a GPT-3 language model accessible via the OpenAI API.  The API response is sent over serial back to the PCjr where it is displayed on the screen.  This creates an interactive question and answer interface running on the PCjr that leverages a deep learning language model on the backend.
+The USB cable is connected to a Raspberry Pi 4.  A Python script runs on the Pi ([code here](https://github.com/nickbild/pcjr_gpt3/blob/main/pcjr_gpt3.py)) that accepts input coming in over the serial interface (from the user typing in Kermit on the PCjr), and sends it to a GPT-3 language model accessible via the OpenAI API.  The API response is sent over serial back to the PCjr where it is displayed on the screen.  This creates an interactive question and answer interface running on the PCjr that leverages a deep learning language model on the backend.
 
 ## Media
 
