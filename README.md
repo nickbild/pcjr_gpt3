@@ -14,6 +14,8 @@ All of the "intelligence" is of course actually in the cloud, but this gives the
 
 ## Media
 
+Demo video: https://www.youtube.com/watch?v=nP-UhhHhSxk
+
 The PCjr connected to a Raspberry Pi 4 via RS-232 serial:
 
 ![](https://raw.githubusercontent.com/nickbild/pcjr_gpt3/main/media/pcjr_sm.jpg)
