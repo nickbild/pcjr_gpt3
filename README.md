@@ -1,4 +1,4 @@
-# IBM PCjr GPT-3
+# IBM PCjr + GPT-3
 
 Ask the world's smartest IBM PCjr anything and it will answer using the GPT-3 deep learning language model.
 
