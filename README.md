@@ -10,6 +10,8 @@ An IBM PCjr (MS-DOS 5.0, 640 KB RAM) has it's serial port connected to an RS-232
 
 The USB cable is connected to a Raspberry Pi 4.  A Python script runs on the Pi ([code here](https://github.com/nickbild/pcjr_gpt3/blob/main/pcjr_gpt3.py)) that accepts input coming in over the serial interface (from the user typing in Kermit on the PCjr), and sends it to a GPT-3 language model accessible via the OpenAI API.  The API response is sent over serial back to the PCjr where it is displayed on the screen.  This creates an interactive question and answer interface running on the PCjr that leverages a deep learning language model on the backend.
 
+All of the "intelligence" is of course actually in the cloud, but this gives the illusion of a super-smart IBM PCjr that you just might want to be careful about engaging in a game of Global Thermonuclear War.
+
 ## Media
 
 The PCjr connected to a Raspberry Pi 4 via RS-232 serial:
