@@ -8,6 +8,18 @@ Ask the world's smartest IBM PCjr anything and it will answer using the GPT-3 de
 
 ## Media
 
+The PCjr connected to a Raspberry Pi 4 via RS-232 serial:
+
+![](https://raw.githubusercontent.com/nickbild/pcjr_gpt3/main/media/pcjr_sm.jpg)
+
+![](https://raw.githubusercontent.com/nickbild/pcjr_gpt3/main/media/monitor_front_sm.jpg)
+
+A hacked together serial cable adapter:
+
+![](https://raw.githubusercontent.com/nickbild/pcjr_gpt3/main/media/serial_cable_sm.jpg)
+
+![](https://raw.githubusercontent.com/nickbild/pcjr_gpt3/main/media/serial_cable_close_sm.jpg)
+
 ## Bill of Materials
 
 - 1 x IBM PCjr
